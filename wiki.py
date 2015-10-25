@@ -11,4 +11,5 @@ try:
     page_key = pages.keys()[0];
     print pages[page_key]["extract"]
 except urllib2.URLError:
+    print "===\n"
     print "There was an error when opening the URL :( \nYou may not be connected to the interwebs!"
