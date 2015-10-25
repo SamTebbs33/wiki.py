@@ -32,7 +32,9 @@ python setup.py install
 Now you can execute the script by typing `wiki.py`, followed by a search query. This query can either consist of one word, or several separated by spaces.
 ```
 wiki.py Linus Torvalds
+=====
 Linus Benedict Torvalds (/ˈlaɪnəsˈtɔrvɔːldz/; Swedish: [ˈliːn.ɵs ˈtuːr.valds]; born December 28, 1969) is a Finnish American software engineer, 
 who was the principal creator behind the development of the Linux kernel; that became the kernel for several other operating systems, 
 such as GNU and years later Android and Chrome OS. He also created the distributed revision control system git. ...
+=====
 ```
