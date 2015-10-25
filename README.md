@@ -1,10 +1,10 @@
 # WikiCLI
 A little program that gives you a wikipedia summary of a chosen topic. If you need to provide a disambiguation, a list of options will be printed and all you need to do is search again using a more specific query.
 
-# Usage
+# Installation and usage
 You can download the repo either as a zip through the browser or by cloning it through git (the preferred option).
 
-## ZIP Download
+## ZIP download
 Click the "Download as ZIP" button to the right and then navigate to the folder in which the file was downloaded (thriugh the terminal) and execute the following command
 ```
 unzip WikiCLI.zip
