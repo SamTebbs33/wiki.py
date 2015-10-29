@@ -6,7 +6,7 @@ import sys
 title = " ".join(sys.argv[1:])
 title = urllib2.quote(title)
 try:
-    json_data = json.load(urllib2.urlopen("http://en.wikipedia.org/w/api.php?action=query&titles=" + title + "&prop=extracts&exintro=&explaintext=&rvprop=content&format=json"));
+    json_data = json.load(urllib2.urlopen("https://en.wikipedia.org/w/api.php?action=query&titles=" + title + "&prop=extracts&exintro=&explaintext=&rvprop=content&format=json"));
     try:
         pages = json_data["query"]["pages"]
         page_key = pages.keys()[0];
