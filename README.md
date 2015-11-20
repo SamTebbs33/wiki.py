@@ -13,7 +13,7 @@ unzip WikiCLI.zip
 ## Git clone
 Execute the following command
 ```
-git clone https://github.com/SamTebbs33/WikiCLI.git
+git clone https://github.com/SamTebbs33/wiki.py
 ```
 
 In the future, you will be able to download updates by executing
